@@ -1,0 +1,104 @@
+body {
+    background-color: rgb(34, 34, 34);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    align-content: space-between;
+}
+
+/* main-container */
+.mic {
+    background-color: rgb(83, 83, 241);
+    text-align: center;
+    color: white;
+    margin: 30px 0px 0px 1305px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+}
+
+.name {
+    color: white;
+    font-size: 15px;
+    margin: -27px 0px 0px 27px;
+}
+
+/* camera-container */
+.camera-container {
+    border-radius: 4px;
+    height: 570px;
+    border: 1px solid red;
+    background-color: rgb(34, 34, 34);
+    margin: -40px 163px 0px 160px;
+}
+
+.camera-container img {
+    height: 180px;
+    margin: 200px 0px 0px 420px;
+}
+
+/* footer */
+
+.footer-m-container {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.footer-container img {
+    height: 25px;
+    width: 25px;
+}
+
+.footer-m-container button {
+    background-color: rgb(155, 152, 152);
+    height: 40px;
+    width: 40px;
+    border-radius: 70px;
+    border: 1px solid transparent;
+    margin: 0 -1px 0 10px;
+}
+
+.footer-m-container button:hover {
+    background-color: rgb(244, 238, 229);
+    transition: 0.4s ease;
+}
+
+.date {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    justify-self: start;
+    align-items: center;
+}
+
+.date h1 {
+    font-size: 26px;
+    margin: 0px 0px 0px 10px;
+    align-self: center;
+}
+
+.calling {
+    margin: 30px 15px 10px 10px;
+    justify-self: center;
+    align-self: flex-end;
+}
+
+.calling .end-call {
+    background-color: rgb(242, 77, 77);
+}
+
+.calling .end-call:hover {
+    background-color: red;
+    transition: 0.6s ease;
+}
+.other-item {
+    margin: 30px 15px 10px 10px;
+    justify-self: end;
+    align-items: center;
+}
